@@ -10,13 +10,12 @@ function main() {
     webPreferences: {
       nodeIntegration: true
     },
-    width: 300,
-    height: 300,
+    width: 800,
+    height: 600,
   })
 
   // load app/index.html as the window content
   mainWindow.loadFile(path.join('app', 'index.html'));
-
 }
 
 app.on('ready', main);
