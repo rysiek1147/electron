@@ -10,8 +10,9 @@ function main() {
     webPreferences: {
       nodeIntegration: true
     },
-    width: 800,
-    height: 600,
+    frame: false,
+    width: 520,
+    height: 650,
   })
 
   // load app/index.html as the window content
